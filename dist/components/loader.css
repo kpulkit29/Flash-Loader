@@ -1,0 +1,44 @@
+.App {
+    
+    text-align: center;
+    margin-top:10%;
+  }
+  
+  .flash {
+    width: 28px !important;
+    height: 30px !important;
+    display: block;
+    margin: 0 auto;
+    background : url("../assets/flash.png") left center;
+    animation: moveX 0.3s steps(18) infinite;
+  }
+  
+  @keyframes moveX{
+    100% {background-position:-539px;}
+  }
+  
+  .jump {
+    width: 66.625px !important ;
+    height: 111px !important;
+    background : url("../assets/punch.png") left center;
+    animation: move2X 1s steps(8) infinite;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  @keyframes move2X{
+    100% {background-position:-533px;}
+  }
+  
+  .rotate {
+    width: 118.6px !important;
+    height: 111px !important;
+    background : url("../assets/lightining.png") left center;
+    animation: move3X 0.3s steps(3) infinite;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  @keyframes move3X{
+    100% {background-position:-356px;}
+  }
