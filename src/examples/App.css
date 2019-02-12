@@ -1,0 +1,28 @@
+.App {
+  
+  text-align: center;
+  margin-top:10%;
+}
+
+.loaders {
+  display: flex;
+}
+
+.loaders div {
+  width:30%;
+}
+
+.load-button {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.25;
+  letter-spacing: .8px;
+  text-align: center;
+  color: #338aed;
+  padding: 10px 12px;
+  border: 1px solid #338aed;
+  border-radius: 4px;
+  margin: auto;
+  margin-top:10%;
+  width: 142px;
+}
