@@ -9,10 +9,38 @@ Flash loader is a fun , lightweight react component library .It supports three d
 Find it [here](https://www.npmjs.com/package/flash-loader)
 
 # How to install and run ?
-`
-#To install
-npm i flash-loader@0.1.2
-
-#Import in you project and run
-import FlashLoader from "flash-loader";
-`
+  - #To install run in you project directory
+  - npm i flash-loader
+  
+  - #Then import in your project to use it
+  - import FlashLoader from "flash-loader";
+  
+ # Modes
+ 
+ The flash loader expects two props (otherwise shows default)
+    - type - string
+    - open - bool
+    
+ 1. Running flash
+ 
+ running loader appears when type is set to "runbarry"
+ 
+ Here is an example
+ 
+ `<FlashLoader open={true} type="runbarry"/>`
+ 
+ 2. Rotate Flash
+ 
+ It appears when type is set to "rotate"
+ 
+ `<FlashLoader open={true} type="rotate"/> `
+ 
+ 3. Jump Flash
+ 
+ It appears when type is set to "jump"
+ 
+ `<FlashLoader open={true} type="jump"/> `
+ 
+ # Hang in!
+New updates coming in a ⚡️
+ 
