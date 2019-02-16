@@ -9,17 +9,20 @@ Flash loader is a fun , lightweight react component library .It supports three d
 Find it [here](https://www.npmjs.com/package/flash-loader)
 
 # How to install and run ?
-  - #To install run in you project directory
-  - npm i flash-loader
+   `# To install run in you project directory`
+   
+   `npm i flash-loader`
   
-  - #Then import in your project to use it
-  - import FlashLoader from "flash-loader";
+   `# Then import in your project to use it`
+   
+   `import FlashLoader from "flash-loader";`
   
  # Modes
  
  The flash loader expects two props (otherwise shows default)
-    - type - string
-    - open - bool
+ 
+     - type: string
+     - open: bool
     
  1. Running flash
  
