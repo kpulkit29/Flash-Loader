@@ -45,5 +45,5 @@ Find it [here](https://www.npmjs.com/package/flash-loader)
  `<FlashLoader open={true} type="jump"/> `
  
  # Hang in!
-New updates coming in a ⚡️
+ New updates coming in a ⚡️
  
