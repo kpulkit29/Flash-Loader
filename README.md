@@ -9,7 +9,7 @@ Flash loader is a fun , lightweight react component library .It supports three d
 Find it [here](https://www.npmjs.com/package/flash-loader)
 
 # How to install and run ?
-   `# To install run in you project directory`
+   `# To install`
    
    `npm i flash-loader`
   
